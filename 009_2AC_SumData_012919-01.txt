@@ -1,0 +1,63 @@
+********************************************
+********************************************
+*  Filename: 009_2AC_SumData_012919-01.txt
+********************************************
+********************************************
+*        TrialData Header Info:
+********************************************
+*  Filename: 009_2AC_TrialData_012919-01.txt
+*  Subject ID: 009
+*  Start Date: 2019-01-29
+*  Start Time: 11:40:51
+*  Training Protocol: 2AC
+*  Max Trial Corrections: 2
+*  Stimuli:
+*    -East stimulus: B6-1975_Fast_3x.wav
+*    -West stimulus: C5-523Hz_3x.wav
+*    -Time Warning Stim: WhiteNoise_p5s.wav
+*    -Trial Over Stim: WhiteNoise_p5s.wav
+********************************************
+********************************************
+
+
+********************************************
+          Trial Data Summary:
+********************************************
+Number of trials initiated: 85
+Number of finished trials: 84
+Number of unfinished trials: 1
+Percentage of trials completed: 98.82%
+
+Number of Correct Trials: 48
+Number of Incorrect Trials: 36
+Correct Trial Percent: 57.14%
+
+Number of Correct Stim-E Trials: 27
+Number of Incorrect Stim-E Trials: 19
+Correct Stim-E Trial Percent: 58.70%
+
+Number of Correct Stim-W Trials: 21
+Number of Incorrect Stim-W Trials: 17
+Correct Stim-W Trial Percent: 55.26%
+
+Number of Correct North-Initiated Trials: 24
+Number of Incorrect North-Initiated Trials: 18
+Correct North-Initiated Trial Percent: 57.14%
+
+Number of Correct South-Initiated Trials: 24
+Number of Incorrect South-Initiated Trials: 18
+Correct South-Initiated Trial Percent: 57.14%
+
+number of East port responses: 44 (52.38%)
+number of West port responses: 40 (47.62%)
+
+number of Right Turns: 36 (42.86%)
+number of Left Turns: 48 (57.14%)
+
+number of Right-Turn Trials: 54 (64.29%)
+number of Left-Turn Trials: 30 (35.71%)
+
+Average response time for all trials: 3.86 seconds
+Average response time for correct trials: 2.89 seconds
+Average response time for incorrect trials: 5.14 seconds
+
