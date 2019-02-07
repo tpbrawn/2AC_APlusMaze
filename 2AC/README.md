@@ -2,11 +2,12 @@ The **2AC** folder contains code and related files for operantly training rodent
 
 #### Required Files:
 **Python Files**: 
+
 2AC_V02.py: Main program coordinating with each Arduino, selecting stimulus and initiation ports for each trial, and outputting data in text file.
 
 **Usage**: python 2AC_V02.py --SID 009 --MaxCor 2 --SE B6_triple_1s.wav –SW --C5_single_1s.wav --ProcNum 01
 
-Arguments:
+**Arguments**:
 -h, --help 			Show this help message and exit
 --SID #			set subject ID: --SID 001
 --MaxCor #			set maximum number of consecutive correction trials^: MaxCor 1
@@ -18,7 +19,8 @@ Arguments:
 
 ^^Procedure number is set to differentiate files when more than one session is run per day.
 
-**Arduino**
+**Arduino Files**
+
 -2AC_North.ino
 -2AC_East.ino
 -2AC_South.ino
@@ -27,10 +29,10 @@ Arguments:
 Upload each Arduino file to its respective Arduino (e.g., 2AC_East.ino to the East arm response port module).  For the East and West files, set the maxSteps variable (e.g., maxSteps = 2000) to adjust the amount of reward delivery.
 
 ### Optional Files:
-**Python**
+**Python Files**
 SumData_2AC.py 
 
-Usage: python SumData_2AC.py --F 009_2AC_TrialData_012919-01.txt
+**Usage**: python SumData_2AC.py --F 009_2AC_TrialData_012919-01.txt
 
 ### Contributors
 -[Tim Brawn](http://www.mit.edu/people/tpbrawn/index.html)
