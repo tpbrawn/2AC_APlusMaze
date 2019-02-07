@@ -1,10 +1,10 @@
 The **2AC** folder contains code and related files for operantly training rodents on a two-alternative choice auditory classification task on an automated plus maze. 
 
-### Required Files:
-**Python**: 
+#### Required Files:
+**Python Files**: 
 2AC_V02.py: Main program coordinating with each Arduino, selecting stimulus and initiation ports for each trial, and outputting data in text file.
 
-Usage: python 2AC_V02.py --SID 009 --MaxCor 2 --SE B6_triple_1s.wav –SW --C5_single_1s.wav --ProcNum 01
+**Usage**: python 2AC_V02.py --SID 009 --MaxCor 2 --SE B6_triple_1s.wav –SW --C5_single_1s.wav --ProcNum 01
 
 Arguments:
 -h, --help 			Show this help message and exit
