@@ -1,11 +1,11 @@
 The **2AC** folder contains code and related files for operantly training rodents on a two-alternative choice auditory classification task on an automated plus maze. 
 
-#### Required Files:
-**Python Files**: 
-- 2AC_V02.py  
+**Python Files**:   
 Main program coordinating with each Arduino, selecting stimulus and initiation ports for each trial, and outputting data in text file.
-
-**Usage**: '''bash python 2AC_V02.py --SID 009 --MaxCor 2 --SE B6_triple_1s.wav –SW --C5_single_1s.wav --ProcNum 01'''
+- 2AC_V02.py (required)      
+**Usage**: '''python 2AC_V02.py --SID 009 --MaxCor 2 --SE B6_triple_1s.wav –SW --C5_single_1s.wav --ProcNum 01'''
+- SumData_2AC.py (optional)  
+**Usage**: python SumData_2AC.py --F 009_2AC_TrialData_012919-01.txt
 
 **Arguments**:
 - -h, --help 			Show this help message and exit
@@ -25,14 +25,7 @@ Main program coordinating with each Arduino, selecting stimulus and initiation p
 - 2AC_South.ino
 - 2AC_West.ino
 
-Upload each Arduino file to its respective Arduino (e.g., 2AC_East.ino to the East arm response port module).  For the East and West files, set the maxSteps variable (e.g., maxSteps = 2000) to adjust the amount of reward delivery.
-
-#### Optional Files:
-**Python Files**
-SumData_2AC.py 
-
-
-**Usage**: python SumData_2AC.py --F 009_2AC_TrialData_012919-01.txt
+**Usage**: Upload each Arduino file to its respective Arduino (e.g., 2AC_East.ino to the East arm response port module).  For the East and West files, set the maxSteps variable (e.g., maxSteps = 2000) to adjust the amount of reward delivery.
 
 ### Contributors
 -[Tim Brawn](http://www.mit.edu/people/tpbrawn/index.html)
