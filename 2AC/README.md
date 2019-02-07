@@ -21,14 +21,14 @@ The **2AC** folder contains code and related files for operantly training rodent
 
 **Arduino Files**
 
--2AC_North.ino
--2AC_East.ino
--2AC_South.ino
--2AC_West.ino
+- 2AC_North.ino
+- 2AC_East.ino
+- 2AC_South.ino
+- 2AC_West.ino
 
 Upload each Arduino file to its respective Arduino (e.g., 2AC_East.ino to the East arm response port module).  For the East and West files, set the maxSteps variable (e.g., maxSteps = 2000) to adjust the amount of reward delivery.
 
-### Optional Files:
+#### Optional Files:
 **Python Files**
 SumData_2AC.py 
 
