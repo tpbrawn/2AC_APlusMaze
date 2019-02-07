@@ -7,7 +7,7 @@ The **2AC** folder contains code and related files for operantly training rodent
 **Notes**: This program coordinates with each arduino, selects stimulus and initiation ports for each trial, and outputs data into text file.  
 
 - SumData_2AC.py (optional)  
-**Usage**: ``` python SumData_2AC.py --F 009_2AC_TrialData_012919-01.txt```
+**Usage**: ``` python SumData_2AC.py --F 009_2AC_TrialData_012919-01.txt```  
 **Notes**: This program analyzes the TrialData.txt output file, providing info on number of trials run, correct/incorrect percentages, turn direction, east/west response biases, and response times.  
 
 **Arguments**:
