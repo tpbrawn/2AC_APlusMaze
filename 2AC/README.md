@@ -34,5 +34,3 @@ The **2AC** folder contains code and related files for operantly training rodent
 
 **Usage**: Upload each Arduino file to its respective Arduino (e.g., 2AC_East.ino to the East arm response port module).  For the East and West files, set the maxSteps variable (e.g., maxSteps = 2000) to adjust the amount of reward delivery.
 
-#### Contributors
--[Tim Brawn](http://www.mit.edu/people/tpbrawn/index.html)
