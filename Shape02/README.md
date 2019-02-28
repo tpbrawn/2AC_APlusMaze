@@ -13,7 +13,7 @@ This program shines one of the four LEDs (north, east, south, west) and waits fo
 **Arguments**:
   - -h, --help 			Show this help message and exit
   - --SID #			    set subject ID: --SID 001
-  - --Num #			    set daily procedure number^: --ProcNum 1
+  - --Num #			    set daily procedure number^: --Num 1
 
 ^Procedure number is set to differentiate files when more than one session is run per day.  
 
