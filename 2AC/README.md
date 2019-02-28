@@ -1,5 +1,7 @@
 The **2AC** folder contains code and related files for operantly training rodents on a two-alternative choice auditory classification task on an automated plus maze. 
 
+This program shines one of two LEDs (north or south) and waits for response via beam break of associated IR detector. Upon response, an auditory stimulus is played and the East and West LEDs shine and await response via the associated IR detectors. One sound indicates East response and one sound indicates West response. Upon correct response, the associated step motor is moved to produce liquid reward from the syringe pump and the same sound is played again from the response port speaker. Upon incorrect response, an error sound is played.
+
 **Python Files**:   
 
 - 2AC_V02.py (required)  
