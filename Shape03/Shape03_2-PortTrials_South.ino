@@ -23,7 +23,7 @@ int ledDelay = 100;             //delay for flashing LED
                                   ///     --larger value increases interval for checking sensorState
 int beamBreakCount = 0;         //count of consecutive 100ms beam breaks
 int beamBreakThreshold = 10;     //number of consecutive beam breaks needed to trigger response 
-                                  ///total duration = (beamBreakLimit * ledDelay) 
+                                  ///total duration = (beamBreakThreshold * ledDelay) 
 void setup() 
 {
   // initialize I/Os
