@@ -13,6 +13,8 @@ This program shines one of two LEDs (north or south) and waits for response via 
 **Arguments**:
   - -h, --help 			Show this help message and exit
   - --SID #			    set subject ID: --SID 001
+  - --TIP N/S/B     set Trial initiation port: N=North, S-South, B=Both
+  - --SpkrLoc #     set speaker location for auditory stims (#1-4)
   - --MaxCor #			set maximum number of consecutive correction trials^: MaxCor 1
   - --SE stimfile		set stimulus for East response port: --SE upsweep.wav
   - --SE stimfile		set stimulus for West response port: --SW upsweep.wav
