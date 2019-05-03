@@ -4,7 +4,7 @@ This program shines one of two LEDs (north or south) and waits for response via 
 
 **Python Files**:   
 
-- 2AC_V02.py (required)  
+- 2AC_V03.py (required)  
 
 **Notes**: This program coordinates with each arduino, selects stimulus and initiation ports for each trial, and outputs data into text file.  
 
