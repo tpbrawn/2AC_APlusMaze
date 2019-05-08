@@ -2,11 +2,11 @@ The **Shape01** folder contains code and related files for operantly training ro
 
 **Python Files**:   
 
-- Shape01_4-PortTrials_V01.py (required)  
+- Shape01_4PortTrials_V01.py (required)  
 
 **Notes**: This program coordinates with each arduino and outputs data into text file.  Set the maximum number of trials for each response port within the python code (e.g., maxTrialsWest = 10, maxTrialsSouth = 10, etc.)
 
-**Usage**:``` python Shape01_4-PortTrials_V01.py --SID 009 --Num 01```  
+**Usage**:``` python Shape01_4PortTrials_V01.py --SID 009 --Num 01```  
 
 **Arguments**:
   - -h, --help 			Show this help message and exit
