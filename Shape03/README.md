@@ -6,11 +6,11 @@ Shape03 is used to transition the rats into completing trials that are initiated
 
 **Python Files**:   
 
-- Shape03_2-PortTrials_V01.py (required)  
+- Shape03_2PortTrials.py (required)  
 
 **Notes**: This program coordinates with each arduino, selects the active port, and outputs response data into text file.  
 
-**Usage**:``` python Shape03_1-PortTrials_V01.py --SID 013 --Num 02```  
+**Usage**:``` python Shape03_2PortTrials.py --SID 013 --Num 02```  
 Within the python file:
 - Set the responseWindow variable (e.g., responseWindow = 30) to adjust how long the animal has to complete an initiated trial. 
 
@@ -22,12 +22,12 @@ Within the python file:
 ^Procedure number is set to differentiate files when more than one session is run per day.  
 
 **Arduino Files**
-- Shape03_1-PortTrials_North.ino
-- Shape03_1-PortTrials_East.ino
-- Shape03_1-PortTrials_South.ino
-- Shape03_1-PortTrials_West.ino
+- Shape03_2PortTrials_North.ino
+- Shape03_2PortTrials_East.ino
+- Shape03_2PortTrials_South.ino
+- Shape03_2PortTrials_West.ino
 
-**Usage**: Upload each Arduino file to its respective Arduino (e.g., Shape03_East.ino to the East arm response port module).  For each file, set the maxSteps variable (e.g., maxSteps = 2000) to adjust the amount of reward delivery and the beamBreakThreshold variable (e.g., beamBreakThreshold = 5) to set the duration that the animal has to maintain beamBreak to trigger a response (duration = beamBreakThreshold * 100ms).
+**Usage**: Upload each Arduino file to its respective Arduino (e.g., Shape03_2PortTrials_East.ino to the East arm response port module).  For each file, set the maxSteps variable (e.g., maxSteps = 2000) to adjust the amount of reward delivery and the beamBreakThreshold variable (e.g., beamBreakThreshold = 5) to set the duration that the animal has to maintain beamBreak to trigger a response (duration = beamBreakThreshold * 100ms).
 
 
 
